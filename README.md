@@ -1,5 +1,5 @@
 # file-grouper
-A simple script that can group all files in a directory by year and copy them in a destination directory.
+A simple script that can group all files in a directory and its subdirs by CREATION YEAR and copy them in a destination directory.
 
 Requirements:
 Python 3 or above
