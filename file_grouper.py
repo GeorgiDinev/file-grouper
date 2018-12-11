@@ -66,8 +66,8 @@ def generate_creation_date_timestamp(path_to_file):
             return stat.st_mtime
         
 if __name__ == "__main__":
-    src_dir = sys.argv[1].strip()
-    dest_dir = sys.argv[2].strip()
+    src_dir = sys.argv[1]
+    dest_dir = sys.argv[2]
     
     if os.path.isabs(src_dir) and os.path.isabs(dest_dir):
         group_files(src_dir, dest_dir)
