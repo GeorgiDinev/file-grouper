@@ -5,4 +5,4 @@ Requirements:
 Python 3 or above
 
 Usage:</br>
-python file-grouper.py source_destination output_destination
+python file_grouper.py source_destination output_destination
