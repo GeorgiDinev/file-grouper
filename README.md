@@ -4,5 +4,5 @@ A simple script that can group all files in a directory by year and copy them in
 Requirements:
 Python 3 or above
 
-Usage:
+Usage:</br>
 python file-grouper.py source_destination output_destination
