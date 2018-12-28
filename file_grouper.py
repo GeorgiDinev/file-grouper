@@ -66,8 +66,8 @@ def generate_creation_date_timestamp(path_to_file):
             return stat.st_mtime
         
 if __name__ == "__main__":
-    src_dir = sys.argv[1].strip()
-    dest_dir = sys.argv[2].strip()
+    src_dir = sys.argv[1]
+    dest_dir = sys.argv[2]
     
     if not os.path.isabs(src_dir):
         src_dir =  os.getcwd() + "/" + src_dir
